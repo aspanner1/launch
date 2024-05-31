@@ -7,6 +7,8 @@ class Person:
     def name(self):
         return self._first_name + ' ' + self._last_name
     
+    @name.setter(self, first_name) # type: ignore
+    
     @property
     def first_name(self):
         return self._first_name

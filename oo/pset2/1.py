@@ -7,3 +7,4 @@ class Cat:
         print("Hello! I'm a cat!")
         
 Cat.greeting()
+
