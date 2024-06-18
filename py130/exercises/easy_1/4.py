@@ -1,0 +1,1 @@
+print(list(map(len, ["apple", "banana", "cherry"])))

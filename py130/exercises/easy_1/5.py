@@ -1,0 +1,1 @@
+print(list(filter(lambda x: x is not None, [None, 3, "Hello", None, 2.312])))
